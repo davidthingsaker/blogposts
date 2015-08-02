@@ -1,0 +1,12 @@
+#Building a portfolio
+One of the things I love most about being a Web Developer is the constant surprise you get when finding something you have never heard of, that you realise you should be using in all of your projects. Take SASS for example. When you first come across a CSS preprocessor the sudden realisation comes to you, “Why does anybody even write in plan CSS anymore? This is AMAZING!” 
+
+However, there is a burden that comes with this constant surprise and elation you get from finding new tech. Which is that you never get anything done. The one project that has always suffered from this is a portfolio. Its your one chance to use what ever tech you like, take as long as you want making it and really sculpt it to be the best and most innovative site you have ever built. Though in reality what happens is you start building and then ‘Ooo CoffeeScript, lets rewrite all my JavaScript’, then ‘Ooo Docker, lets write a kickass Dockerfile to host this when I’m done’, followed shortly by ‘Omg why isnt everybody using Varnish?!’ and so on. Resulting in that beautiful portfolio perpetually staying in a half finished state.  
+
+Therefore in building this site I stayed strong and used my standard development stack. I convinced myself that in building this site, it will give me a reason to play with all the new tech in order to write these posts about them. Opening up a whole new reason to get engrossed in things that will take too long to integrate into my real world projects. As the developers reading this will know, as interesting and useful things like Docker are, convincing your clients that you need to bring their apps down in order to unnecessarily upgrade them is a difficult task. Also, you may have noticed that Docker is my toy of choice at the moment. 
+
+The other issue with building your own website, when you’re a developer, is that you are just that. A Developer, and not a Designer. Which causing lots of "That does' tlook right? But I’m not sure why.”. So be kind, if my website looks like something designed on an Etch A Sketch, keep it to yourself. Thats why I didn’t think comments where a great idea to start with. 
+
+Luckily I got there in the end and I am reasonably happy with what I have achieved. I definitely think its a good idea for someone building websites for a living to have their own. Hopefully this site will allow me to waste some time writing about nonsense that no one will ever read. 
+
+So there we have it, my first blog post on my shiny new portfolio site. I hope you enjoy.
