@@ -1,6 +1,6 @@
-In my previous post I talked about my not so delicate introduction to [Varnish](https://www.varnish-cache.org/releases) 3.0. Since that time Varnish has upgraded its offering and I thought I would be useful to have a little tutorial on the site for anyone wandering the Internet looking for something useful.
+In my previous post I talked about my not so delicate introduction to [Varnish](https://www.varnish-cache.org/releases) 3.0. Since that time Varnish has upgraded its offering and I thought I would be useful to have a little tutorial on the site for anyone wandering the Internet looking for something useful. 
 
-As the title states, this is technically a tutorial on how to configure Varnish for [Laravel](http://laravel.com/). However, in terms of Varnish configuration there is only 3 lines difference. The rest is in a smart little package you install using composer on [Laravel](http://laravel.com/) called [Session Monster](https://github.com/HaiFangHui/sessionmonster). Which I will come onto later.
+Although the title suggests its a tutorial specifically for [Laravel](http://laravel.com/) Varnish configuration, most of the tutorial is common Varnish. With only a small amount of Laravel configuration required to get Varnish working in tune with your app. In terms of Laravel Varnish configuration there are only 3 lines difference. The rest is in a smart little package you install using composer on [Laravel](http://laravel.com/) called [Session Monster](https://github.com/HaiFangHui/sessionmonster). Which I will come onto later.
 
 ## Installing Varnish
 
