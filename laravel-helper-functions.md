@@ -21,9 +21,9 @@ Next we just need to load in our `Helpers` class. So head over to your `composer
 ```json
 
 "autoload": {
-	"classmap": {
+	"classmap": [
 		"app/Libraries"
-	}
+	]
 }
 
 ```
