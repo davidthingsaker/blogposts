@@ -63,13 +63,13 @@ class AjaxController extends Controller
 
 That way we will be able to test to see that our data is making it to our controller method. 
 
-Next we need a way of ensuring AJAX is able to call our controller method. We do this by creating a route, in `app/Http/routes.php`.
+Next we need a way of ensuring AJAX is able to call our controller method. We do this by creating a route, in `routes/web.php`.
 
 ```php
-$app->post('/customer/ajaxupdate', 'AjaxController@updateCustomerRecord');
+Route::post('/customer/ajaxupdate', 'AjaxController@updateCustomerRecord');
 ```
 
-Couple of bits to note here. We are using a `$app->post()` method, as we will be posting data to the URL using AJAX. The second is that we are saying to Laravel, if you get a `POST` request to the url `/customer/ajaxupdate` then go to controller `AjaxController` and use method `updateCustomerRecord`.
+Couple of bits to note here. We are using a `POST` route, as we will be posting data to the URL using AJAX. The second is that we are saying to Laravel, if you get a `POST` request to the url `/customer/ajaxupdate` then go to controller `AjaxController` and use method `updateCustomerRecord`.
 
 So now we have our method, and our way of calling it. Now we just need the AJAX to call the Laravel function. We will use JQuery's `$.ajax` function for this,
 
